@@ -3,6 +3,7 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { MovieService } from './services/movie.service';
 import { MoviesComponent } from './components/pages/movies/movies.component';
 import { LoginComponent } from './components/pages/login/login.component';
+import { authGuard } from './guards/auth.guard';
 
 export const routes: Routes = [
     {
@@ -11,10 +12,13 @@ export const routes: Routes = [
     },
     {
         path:'movies',
-        component:MoviesComponent
+        component:MoviesComponent,
+        canActivate: [authGuard]
     },
     {
         path:'login',
         component:LoginComponent
     }
 ];
+
+

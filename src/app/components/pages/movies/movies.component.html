@@ -1,4 +1,5 @@
 
 <div class="list-movie">
-    <app-movie-card></app-movie-card>
+    <app-movie-card *ngFor="let m of movies" [movie]="m">
+    </app-movie-card>
 </div>

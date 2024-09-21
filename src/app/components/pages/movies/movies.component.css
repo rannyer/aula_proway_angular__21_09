@@ -1,7 +1,11 @@
 
 .list-movie{
     display: flex;
-    justify-content: center;
+  
     align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px 0px 0px 0px;
+    justify-content: center;
    
 }
