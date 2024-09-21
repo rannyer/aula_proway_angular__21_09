@@ -13,14 +13,17 @@ import { User } from '../../../models/auth';
 })
 export class LoginComponent {
 
-  user?:User
+  user:User = {email: "", password: ""}
 
   constructor(private router:Router, private authService:AuthService){}
 
-  loginHandler(){
-    this.user = {email: "olivier@mail.com", password: "bestPassw0rd"}
+  loginHandler(){   
+    console.log(this.user)
     this.authService.login(this.user).subscribe({
-      next: res => console.log(res),
+      next: res => {
+        localStorage.setItem("access-token",res.accessToken)
+        this.router.navigate(['movies'])
+      },
       error: err => console.log(err)
     })
   }

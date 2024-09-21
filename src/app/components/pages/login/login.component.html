@@ -1,8 +1,8 @@
 <div class="login" su>
     <div class="container"  >
         <h1>Login</h1>     
-          <input type="email" placeholder="Seu email" />
-          <input type="password" placeholder="Sua senha" />
+          <input type="email" placeholder="Seu email" [(ngModel)]="user.email" />
+          <input type="password" placeholder="Sua senha" [(ngModel)]="user.password" />
           
           <button type="submit" (click)="loginHandler()" >Entrar</button>
           <p><a href="#">Esqueceu sua senha?</a></p>   

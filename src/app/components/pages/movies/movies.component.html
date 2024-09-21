@@ -1,5 +1,9 @@
 
 <div class="list-movie">
+    <video controls [src]="videoUrl">
+        Your browser does not support the video tag.
+      </video>
     <app-movie-card *ngFor="let m of movies" [movie]="m">
     </app-movie-card>
+    
 </div>

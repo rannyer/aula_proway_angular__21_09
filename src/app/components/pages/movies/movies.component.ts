@@ -14,6 +14,7 @@ import { CommonModule } from '@angular/common';
 export class MoviesComponent implements OnInit {
 
   movies:Movie[] = []
+  videoUrl:string = ""
 
   constructor(private movieService:MovieService){}
   
@@ -30,4 +31,8 @@ export class MoviesComponent implements OnInit {
       }
     )
   }
+  watchVideo(url:string){
+    this.videoUrl = url
+  }
+
 }

@@ -4,7 +4,8 @@
       "id": "1",
       "title": "Inception",
       "genre": "Sci-Fi",
-      "duration": "148 min"
+      "duration": "148 min",
+      "url":"http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
     },
     {
       "id": "2",
@@ -66,6 +67,16 @@
       "email": "olivier@mail.com",
       "password": "$2a$10$/Bl.WNo/pphbZylNZhysaeRxc2DDqPEt6CRY5VtyhPQHr.VasOaO.",
       "id": 1
+    },
+    {
+      "email": "teste@mail.com",
+      "password": "$2a$10$W4UiAbIi74b5/WS9saHQke7CSoITg7Jo2hRvZ2bnc4U5As2gFiDJG",
+      "id": 2
+    },
+    {
+      "email": "admin@mail.com",
+      "password": "$2a$10$DGBvWzsrUJEeZNIQrxIbF.08Gx9KKYzz/u8GisIEsZChF/U48k0Pu",
+      "id": 3
     }
   ]
 }

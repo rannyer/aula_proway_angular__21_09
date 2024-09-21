@@ -5,4 +5,7 @@
     <p class="duration">{{ movie.duration }}</p>
     <button class="watch-button">Assistir</button>
   </div>
+  <video controls [src]="movie.url" width="100px">
+    Your browser does not support the video tag.
+  </video>
 </div>
