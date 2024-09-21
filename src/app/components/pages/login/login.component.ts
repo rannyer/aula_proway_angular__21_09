@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
+import { AuthService } from '../../../services/auth.service';
+import { User } from '../../../models/auth';
 
 @Component({
   selector: 'app-login',
@@ -11,19 +13,16 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent {
 
+  user?:User
 
-  constructor(private router:Router){}
+  constructor(private router:Router, private authService:AuthService){}
 
-  user:String = ""
   loginHandler(){
-    if(this.user == "admin@gmail.com") {
-      localStorage.setItem("user-type","admin")
-      this.router.navigate(['/movies'])
-    }else{
-      localStorage.setItem("user-type","user")
-      this.router.navigate([''])
-    }
-    
+    this.user = {email: "olivier@mail.com", password: "bestPassw0rd"}
+    this.authService.login(this.user).subscribe({
+      next: res => console.log(res),
+      error: err => console.log(err)
+    })
   }
   
 }

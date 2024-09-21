@@ -1,65 +1,71 @@
 {
-    "movie": [
-      {
-        "id": "1",
-        "title": "Inception",
-        "genre": "Sci-Fi",
-        "duration": "148 min"
-      },
-      {
-        "id": "2",
-        "title": "The Shawshank Redemption",
-        "genre": "Drama",
-        "duration": "142 min"
-      },
-      {
-        "id": "3",
-        "title": "The Godfather",
-        "genre": "Crime",
-        "duration": "175 min"
-      },
-      {
-        "id": "4",
-        "title": "Pulp Fiction",
-        "genre": "Crime",
-        "duration": "154 min"
-      },
-      {
-        "id": "5",
-        "title": "The Dark Knight",
-        "genre": "Action",
-        "duration": "152 min"
-      },
-      {
-        "id": "6",
-        "title": "Forrest Gump",
-        "genre": "Drama",
-        "duration": "142 min"
-      },
-      {
-        "id": "7",
-        "title": "Interstellar",
-        "genre": "Sci-Fi",
-        "duration": "169 min"
-      },
-      {
-        "id": "8",
-        "title": "The Matrix",
-        "genre": "Sci-Fi",
-        "duration": "136 min"
-      },
-      {
-        "id": "9",
-        "title": "Fight Club",
-        "genre": "Drama",
-        "duration": "139 min"
-      },
-      {
-        "id": "10",
-        "title": "The Lord of the Rings: The Return of the King",
-        "genre": "Fantasy",
-        "duration": "201 min"
-      }
-    ]
-  }
-  
+  "movie": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "duration": "148 min"
+    },
+    {
+      "id": "2",
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "duration": "142 min"
+    },
+    {
+      "id": "3",
+      "title": "The Godfather",
+      "genre": "Crime",
+      "duration": "175 min"
+    },
+    {
+      "id": "4",
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "duration": "154 min"
+    },
+    {
+      "id": "5",
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "duration": "152 min"
+    },
+    {
+      "id": "6",
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "duration": "142 min"
+    },
+    {
+      "id": "7",
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "duration": "169 min"
+    },
+    {
+      "id": "8",
+      "title": "The Matrix",
+      "genre": "Sci-Fi",
+      "duration": "136 min"
+    },
+    {
+      "id": "9",
+      "title": "Fight Club",
+      "genre": "Drama",
+      "duration": "139 min"
+    },
+    {
+      "id": "10",
+      "title": "The Lord of the Rings: The Return of the King",
+      "genre": "Fantasy",
+      "duration": "201 min"
+    }
+  ],
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$/Bl.WNo/pphbZylNZhysaeRxc2DDqPEt6CRY5VtyhPQHr.VasOaO.",
+      "id": 1
+    }
+  ]
+}
